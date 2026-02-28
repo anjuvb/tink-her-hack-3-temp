@@ -16,7 +16,7 @@
 rent-a-driveway.vercel.app
 
 ### Project Description
-rent-a-driveway.vercel.app
+A platform that lets homeowners rent out their driveways to drivers looking for convenient parking
 
 ### The Problem statement
 Finding safe, convenient, and affordable parking is difficult in busy areas
