@@ -87,69 +87,10 @@ dashboard- https://drive.google.com/file/d/1qkbnnF8pkTEnDG1_DPRVI_rKtAUo-6kl/vie
 #### Diagrams
 
 **System Architecture:**
-          +---------------------+
-          |   User (Web Client) |
-          |  Next.js + Tailwind |
-          +----------+----------+
-                     |
-                     | Interacts (search, book, list)
-                     v
-          +---------------------+
-          |   Frontend Logic    |
-          |  Forms, UI, Routing |
-          +----------+----------+
-                     |
-          +----------+----------+
-          | Firebase Authentication |
-          |   (Sign up / Login)    |
-          +----------+----------+
-                     |
-                     v
-          +---------------------+
-          |   Firebase Firestore |
-          |  Driveways & Requests|
-          +----------+----------+
-                     |
-                     | Stores driveway info + image URLs
-                     v
-          +---------------------+
-          |   Firebase Storage   |
-          |   Driveway Images    |
-          +---------------------+
-
+    https://drive.google.com/file/d/1hZQGNqUjvSCoEWQbV2hAjJoAzANnxYMe/view?usp=drive_link
 
 **Application Workflow:**
-          +---------------------+
-          |   User (Web Client) |
-          |  Next.js + Tailwind |
-          +----------+----------+
-                     |
-                     | Interacts (search, book, list)
-                     v
-          +---------------------+
-          |   Frontend Logic    |
-          |  Forms, UI, Routing |
-          +----------+----------+
-                     |
-          +----------+----------+
-          | Firebase Authentication |
-          |   (Sign up / Login)    |
-          +----------+----------+
-                     |
-                     v
-          +---------------------+
-          |   Firebase Firestore |
-          |  Driveways & Requests|
-          +----------+----------+
-                     |
-                     | Stores driveway info + image URLs
-                     v
-          +---------------------+
-          |   Firebase Storage   |
-          |   Driveway Images    |
-          +---------------------+
-
-
+     https://drive.google.com/file/d/19-QYzlbz87wijmjLfBbQNQKpdwLM3Uj4/view?usp=drive_link
 ### For Hardware:
 
 #### Schematic & Circuit
