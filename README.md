@@ -62,7 +62,7 @@ Dashboard for owners to manage listings
 npm install
 
 #### Run
-npm install
+npm run dev
 
 ### For Hardware:
 
