@@ -2,27 +2,27 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# Rent-a-Driveway 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: Anju V B
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Anju V B - TKM College of Engineering
+
 
 ### Hosted Project Link
-[mention your project hosted link here]
+rent-a-driveway.vercel.app
 
 ### Project Description
-[2-3 lines about what your project does]
+rent-a-driveway.vercel.app
 
 ### The Problem statement
-[What problem are you solving?]
+Finding safe, convenient, and affordable parking is difficult in busy areas
 
 ### The Solution
-[How are you solving it?]
+Homeowners can list driveways; drivers can book them for hours
 
 ---
 
@@ -31,25 +31,26 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
 
+Languages: JavaScript
+Frameworks: Next.js, Tailwind CSS
+Libraries: Firebase, image-compression
+Tools: VS Code, GitHub, Vercel
 **For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
+- Main components: NIL
+- Specifications: NIL
+- Tools required: NIL
 
 ---
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+
+List and rent driveways
+Proper Authentication
+Apply for parking requests
+Dashboard for owners to manage listings
 
 ---
 
@@ -58,22 +59,18 @@ List the key features of your project:
 ### For Software:
 
 #### Installation
-```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
-```
+npm install
 
 #### Run
-```bash
-[Run commands - e.g., npm start, python app.py]
-```
+npm install
 
 ### For Hardware:
 
 #### Components Required
-[List all components needed with specifications]
+NIL
 
 #### Circuit Setup
-[Explain how to set up the circuit]
+NIL
 
 ---
 
@@ -83,52 +80,85 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
+requests- https://drive.google.com/file/d/1EaXj-et_8IrbEMe_hhEsRWcITDVSz2wg/view?usp=drive_link
+rent-driveway- https://drive.google.com/file/d/1b704PUT18cF89jLrfIWe1dUO6KeNuYmM/view?usp=drive_link
+index- https://drive.google.com/file/d/1yi1GIhhwZxDjNEo6StiqSXb9uL1IY5YN/view?usp=drive_link
+dashboard- https://drive.google.com/file/d/1qkbnnF8pkTEnDG1_DPRVI_rKtAUo-6kl/view?usp=drive_link
 #### Diagrams
 
 **System Architecture:**
+          +---------------------+
+          |   User (Web Client) |
+          |  Next.js + Tailwind |
+          +----------+----------+
+                     |
+                     | Interacts (search, book, list)
+                     v
+          +---------------------+
+          |   Frontend Logic    |
+          |  Forms, UI, Routing |
+          +----------+----------+
+                     |
+          +----------+----------+
+          | Firebase Authentication |
+          |   (Sign up / Login)    |
+          +----------+----------+
+                     |
+                     v
+          +---------------------+
+          |   Firebase Firestore |
+          |  Driveways & Requests|
+          +----------+----------+
+                     |
+                     | Stores driveway info + image URLs
+                     v
+          +---------------------+
+          |   Firebase Storage   |
+          |   Driveway Images    |
+          +---------------------+
 
-![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
 
 **Application Workflow:**
+          +---------------------+
+          |   User (Web Client) |
+          |  Next.js + Tailwind |
+          +----------+----------+
+                     |
+                     | Interacts (search, book, list)
+                     v
+          +---------------------+
+          |   Frontend Logic    |
+          |  Forms, UI, Routing |
+          +----------+----------+
+                     |
+          +----------+----------+
+          | Firebase Authentication |
+          |   (Sign up / Login)    |
+          +----------+----------+
+                     |
+                     v
+          +---------------------+
+          |   Firebase Firestore |
+          |  Driveways & Requests|
+          +----------+----------+
+                     |
+                     | Stores driveway info + image URLs
+                     v
+          +---------------------+
+          |   Firebase Storage   |
+          |   Driveway Images    |
+          +---------------------+
 
-![Workflow](docs/workflow.png)
-*Add caption explaining your workflow*
-
----
 
 ### For Hardware:
 
 #### Schematic & Circuit
 
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+NIL
 
 #### Build Photos
 
-![Team](Add photo of your team here)
-
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
+NIL
 ---
 
 ## Additional Documentation
@@ -137,7 +167,7 @@ List the key features of your project:
 
 #### API Documentation
 
-**Base URL:** `https://api.yourproject.com`
+
 
 ##### Endpoints
 
@@ -361,50 +391,31 @@ python script.py -v --format json data.json
 ## Project Demo
 
 ### Video
-[Add your demo video link here - YouTube, Google Drive, etc.]
-
-*Explain what the video demonstrates - key features, user flow, technical highlights*
-
-### Additional Demos
-[Add any extra demo materials/links - Live site, APK download, online demo, etc.]
-
----
+https://drive.google.com/file/d/1uC242w-Gwsv_LgnWl95S8_SYos2nvwsD/view?usp=drive_link
 
 ## AI Tools Used (Optional - For Transparency Bonus)
 
-If you used AI tools during development, document them here for transparency:
+ChatGPT: Generated boilerplate React components, helped with Firebase integration, optimized Firestore queries, suggested Tailwind styling improvements.
 
-**Tool Used:** [e.g., GitHub Copilot, v0.dev, Cursor, ChatGPT, Claude]
+GitHub Copilot: Assisted in writing repetitive React code, auto-completed form handling and state management.
 
-**Purpose:** [What you used it for]
-- Example: "Generated boilerplate React components"
-- Example: "Debugging assistance for async functions"
-- Example: "Code review and optimization suggestions"
 
-**Key Prompts Used:**
-- "Create a REST API endpoint for user authentication"
-- "Debug this async function that's causing race conditions"
-- "Optimize this database query for better performance"
-
-**Percentage of AI-generated code:** [Approximately X%]
+**Percentage of AI-generated code:** [Approximately 50%]
 
 **Human Contributions:**
-- Architecture design and planning
-- Custom business logic implementation
-- Integration and testing
-- UI/UX design decisions
+Architecture design and planning
+Implementing user authentication and Firestore database logic
+UI/UX design and Tailwind styling
+Integration of image upload and driveway listing
+Testing, debugging, and deployment
 
-*Note: Proper documentation of AI usage demonstrates transparency and earns bonus points in evaluation!*
 
 ---
 
 ## Team Contributions
 
-- [Name 1]: [Specific contributions - e.g., Frontend development, API integration, etc.]
-- [Name 2]: [Specific contributions - e.g., Backend development, Database design, etc.]
-- [Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
+Anju V B-Frontend development (React + Tailwind), Firebase integration, UI/UX design, project documentation, deployment, Backend logic (Firestore database rules, request handling), testing and bug fixing,progress tracking, workflow design, team coordination.
 
----
 
 ## License
 
